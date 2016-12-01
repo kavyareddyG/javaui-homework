@@ -1,0 +1,111 @@
+                                                   Javascript Homework-1
+
+1)Javascript datatypes?
+           In Javascript we have datatypes like 
+ a)undefined
+ b)number
+ c)Boolean
+ d)object
+ e)function
+ f) Array and Null are the sub classifications of object.
+ g)string
+
+a)undefined: when the variable is declared and didn't assigned any value to a variable then the type would be undefined.
+
+For ex: var a;
+        console.log(typeof a);
+o/p: Undefined.
+
+2)number : when the variable is declared and assigned the value to it then the type would be number.
+
+For ex: var b;
+        b=1;
+        console.log(typeof b);
+o/p: number
+
+3)string : If we assign any value in string format then the type would be string.
+
+For ex: var c;
+     c="micky mouse";
+    console.log(typeof c);
+o/p : string
+
+4)object: If we declare any empty object then the type would be object.
+
+For ex: var d;
+       d={};
+       console.log(typeof d)
+o/p: object
+
+5)For null and array datatypes the type would be object.
+
+For ex: d=null;
+        console.log(typeof d)
+o/p: object
+
+     d=[]
+     console.log(typeof d)
+o/p:object
+
+6) Boolean: if we assign the value as true or false then the type would be boolean.
+         for ex: var c;
+                 c= true;
+                 console.log(typeof c);
+        o/p: boolean.
+
+7)function : The type of function is function.
+
+            ex: var a;
+                a=function() {}
+                console.log(typeof a);
+        o/p: function.
+
+2)Difference between Null and Undefined?
+
+       A variable has declared and not assigned any value to that variable. The unassigned variables are initialised by the javascript wth a default value of 
+     undefined.
+       Null is the assignment value. It is assigned as the representation of no value.
+            Ex: var a=null;
+
+3)Difference between == and ===?
+        
+           == is only a value comparison but not datatype comparison.
+              console.log(1==1); //true
+              console.log('1'==1); //true
+              console.log(null==undefined); //true (because null and undefined means no value.)
+
+          === is both value and datatype comparison.
+               console.log(1===1); //true
+               console.log('1'===1); // false.
+               console.log(null===undefined);//false
+
+4)How to include javascript into web pages?
+      1) We can include the internal javascript within the <script> tag
+   Ex: <script>
+          //we can include the javascript
+       </script>
+
+   2) If we had any external javascript file then we need to include it in the script tag.
+        Ex: <script src="filename.js"></script>
+
+5)Why we need to use Javascript?
+   small applications and games can be entirely written in javascript.
+   For DOM manipulation, Event handling, BOM, different way of creating objects,arrays,functions, oops concepts and Ajax calls.
+
+6)what is DOM Manipulation?
+   DOM stands for Document Object Model.
+   When the web page gets loaded, browser creates DOM of the page.
+   Html is read by browser and converted into tree like structure and event handling operations can be done on DOM.
+
+
+   
+
+
+
+
+
+
+
+
+
+
