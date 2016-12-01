@@ -1,0 +1,220 @@
+                                                                    HTML Homework-2
+1)What are sementic elements?
+          An element which clearly describes its meaning to the browser and developer and also which provides a better document structure are known as semantic
+elements.
+
+2)why do we need to use semantic elements? advantages?
+  Advantages:
+ 1)searching an optimization - means whenever we are searching anything in the browser semantic elements will be given highest importance.
+2)semantic elements clearly describe the meaning of the content while non-semantic elements not.
+3)Using semantic elements is the effective way of doing.
+
+3)
+<article>,<aside>,<details>,<figcaption>,<figure>,<footer>,<header>,<main>,<mark>,<nav>,<section>,<summary> and <time> are the sematic elements.
+
+In detail about these semantic elements.
+1)<article>
+     The <html> article tag defines an independent,self-contained content in a document,page and application etc. This tag is generally used on Forum post,Blog post,
+News story,comments etc.
+
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+<article>
+<h1>semantic element - article</h1>
+<p> An element which clearly describes its meaning to the browser and developer and also which provides a better document structure are known as semantic
+elements.</p>
+</article>
+</body>
+</html>
+
+2)<aside>
+      The <aside> element defines the content related to the surrounding content. The content related to the <aside> is highlighted outside and the total information 
+is placed inside the <aside> element. It is often referred as a side bar.
+
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+<article>
+<p>learning how to use aside tag</p>
+<aside>
+<h1>aside element</h1>
+<p>It is often referred as a side bar and <aside> Defines the content related to the surrounding content.</aside></p>
+</aside>
+</article>
+</body>
+</html>
+
+3)<figure>
+            The <figure> tag is used to handle group of images with solid content embedded in it.
+<!DOCTYPE html>        
+<head>
+</head>
+<body>
+<figure>
+<p>A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears. 
+   There are over a hundred species and thousands of cultivars.</p>
+<img src="img_rose.jpg" alt="The Pulpit Rock" width="304" height="228">
+</figure>
+</body>
+</html>
+
+4)<figcaption>
+         The <figcaption> tag indicates that it is used to diaplay the image along with the caption. Within the <fig> tag only one <figcaption> can be embedded.
+<!DOCTYPE html>        
+<head>
+</head>
+<body>
+<figure>
+<p>A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears. 
+   There are over a hundred species and thousands of cultivars.</p>
+<img src="img_Tajmahal.jpg" alt="Taj Mahal" width="304" height="228">
+<figcaption>Fig.1.1 - A front view of the  Taj Mahal in Agra.
+</figcaption>
+</figure>
+</body>
+</html>
+
+5)<header>
+     The <header> element consists of one or more header elements,logos,icons etc.,
+     
+  Note:we can use several <header> elements in one document, but a <header> element cannot be placed within a <footer>, <address> or another <header> element.
+<!DOCTYPE html>
+<html>
+<body>
+<aside>
+  <header>
+    <h1>Most important heading </h1>
+    <h6>Less important heading </h6>
+    <p>Some additional information here.</p>
+  </header>
+  <p>consists of more than one header element.</p>
+</aside>
+</body>
+</html>
+
+6)<footer>
+        If we want to provide details like authorship information,copyright information,contact information etc., in a document then we use <footer> element.
+
+<!DOCTYPE html>
+<html>
+<body>
+<footer>
+  <p>Authored By: Dr. R Nageswara Rao</p>
+  <p>Contact information: <a href="mailto:kogentsolutions@gmail.com">kogentsolutions@gmail.com</a>.</p>
+</footer>
+</body>
+</html>
+
+  
+7)<Main>
+      The main element is unique and defines the main content in the document.
+  <!DOCTYPE html>
+<html>
+<body>
+
+<main>
+  <h1>oops concepts</h1>
+  <p>oops concepts in java are the most important concepts</p>
+
+  <article>
+    <h1>polymorphism</h1>
+    <p>Existing in many forms is known as polymorphism.</p>
+  </article>
+
+  <details>
+    <h1>Inheritance</h1>
+    <p>Aqcuiring the properties from base class to the derived class.</p>
+  </details>
+
+  <article>
+    <h1>Abstraction</h1>
+    <p>Hiding unnecessary things is known as abstraction.</p>
+  </article>
+
+  <details>
+    <h1>Abstraction</h1>
+    <p>Hiding unnecessary things is known as abstraction.</p>
+  </aside>
+</main>
+</body>
+</html>
+
+
+
+8)<mark>
+     The <mark> element is used for highlighting the given text.
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The mark element is used for <mark> highlighting </mark> the given text.</p>
+</body>
+</html>
+
+
+
+9)<nav>
+    The <navigation> element is used for navigating to a set of links. The links should be written inside the <nav> element.
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Nav Tag</title>
+</head>
+<body>
+<nav>
+<a href="Angular.js/index.htm">Angular.js</a> |
+<a href="node.js/index.htm">node.s</a> |
+<a href="jquery">jquery</a> |
+<a href="javascript/index.htm">javascript</a> |
+<a href="sql">SQL</a> 
+</nav>
+</body>
+</html>
+
+10)<section>
+     The <section> tag defines different sections such as headers,footers,chapters in a document.
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<section>
+  <h1>HTML</h1>
+  <p>HTML is an acronym which stands for Hyper Text Markup Language.Hyper Text simply means "Text within Text". A text has a link within it, is a hypertext.</p>
+</section>
+<section>
+  <h1>CSS</h1>
+  <p>CSS is an acronym stands for Cascading Style Sheets. It is a style sheet language which is used to describe the look and formatting of a document written in
+ markup language.It provides an additional feature to HTML.It is generally used with HTML to change the  style of web pages and user interface.</p>
+</section>
+</body>
+</html>
+ 
+
+11)<summary>
+      The summary tag is used for displaying the heading of the <details> element. When we click on the heading details will get viewed or hide.
+
+<!DOCTYPE html>
+<head></head>
+<body>
+
+<details>
+  <summary>Details about the summary tag</summary>
+  <p>The summary tag is used for displaying the heading of the details element</p>
+  <p>More details can be found in different websites like w3schools,tutorialspoint.</p>
+</details>
+ </body>
+</html>
+
+
+
+
+ 
+
+
+
