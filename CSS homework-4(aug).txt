@@ -1,0 +1,163 @@
+                                                     CSS Homework-4
+
+1)Difference between visibility:hidden and visibility:none property?
+  
+   Visibility property specifies whether an element is visible or not.Both the properties will not display anything but visibility :hidden property will occupy 
+the space for that element whereas visibility:none property doesn't occupy any space.
+
+Example.
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1.hidden {
+display: none
+}
+h1.hidden {
+    visibility: hidden
+}
+</style>
+</head>
+<body>
+<h1 class="hidden">This is a display none heading</h1>
+<h1 class="hidden">This is an visibilty hiddden heading</h1>
+<p>Notice that the invisible heading still takes up space.</p>
+
+</body>
+</html>
+
+3)CSS properties
+
+1)color property
+
+color	: Sets the color for the text	
+opacity : Sets the opacity level for an element.
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+    color: red;
+}
+div {
+background-color: yellow;
+opacity: 0.5;
+}
+</style>
+</head>
+<body>
+<h1>This is heading1>
+<div>this is div1</div>
+</body>
+</html>
+
+2)Box properties
+ Bottom property: Specifies the bottom position of a positioned element.
+margin property: we have to declare the values i.e.,one to four values(top,right,bottom,left).
+height property: specifies the height of an image.
+display property:specifying inline elemnts as block elements and vice-versa.
+clip property: clipping an image to half or 1/4th or according to the user requirement.
+max-height: used to set the max-height of an element while displaying.
+overflow: The overflow property specifies the over-flow content should be display by placing scroll bars or the overflow content should be hidden.
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #8AC007;
+}
+
+div.static {
+    position: static;
+    width: 100px;
+    height: 70px;
+    border: 3px solid red;
+}
+img {
+    position: absolute;
+    clip: rect(20px,30px,200px,0px);
+}
+p {
+    display: inline;
+}
+img.normal {
+    height: 60px;
+}
+
+img.big {
+    height: 120px;
+}
+p.intro {
+    margin: 4cm 5cm 5cm;
+}
+p {
+    max-height: 40px;
+    background-color: yellow;
+    overflow: auto;
+}
+div.scroll {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+}
+
+div.hidden {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<div class="relative">This div element has position: relative;
+  <div class="static">This div element has position: absolute.</div>
+</div>
+
+<img src="w3css.gif" width="100" height="140">
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+<img class="normal" src="rose.jpg" width="95" height="84"><br>
+<img class="big" src="rose.jpg" width="95" height="84">
+
+<p>A paragraph with no specified margins.</p>
+<p class="intro">A paragraph with specified margins.</p>
+<p>A paragraph with no specified margins.</p>
+
+<p>The maximum height of this paragraph is set to 50px. The maximum height of this paragraph is set to 50px.
+ The maximum height of this paragraph is set to 50px. The maximum height of this paragraph is set to 50px. 
+The maximum height of this paragraph is set to 50px. The maximum height of this paragraph is set to 50px. 
+The maximum height of this paragraph is set to 50px. The maximum height of this paragraph is set to 50px. 
+The maximum height of this paragraph is set to 50px. The maximum height of this paragraph is set to 50px.</p>
+
+<p>overflow:scroll</p>
+<div class="scroll">The overflow property specifies the over-flow content should be display by placing scroll bars or the overflow content should be hidden.</div>
+
+<p>overflow:hidden</p>
+<div class="hidden">The overflow property specifies the over-flow content should be display by placing scroll bars or the overflow content should be hidden.</div>
+
+</body>
+</html>
+
+3)Flexible box layout
+
+
+
+
+
+
+
+
+
+
+
+
+
