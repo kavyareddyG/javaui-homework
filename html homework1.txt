@@ -1,0 +1,133 @@
+                                                                      Html Homework-1
+
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+<h3 style="text-align:center;">Kavya Guduru</h3>
+<h3 style="text-align:center;">(205)649-0435</h3>
+<h3 style="text-align:center;">kavyag491@gmail.com</h3>
+<strong>PROFESSIONAL SUMMARY</strong>
+<ul>
+   <li>Over <strong>3 Years</strong> of experience in application and web development with emphasis on UI technology stack.</li>
+   <li>Expertise in client scripting language and server scripting languages like <strong> JavaScript, jQuery, JSON, Bootstrap, HTML5 and CSS3.</strong></li>
+   <li>Strong experience in JavaScript Frameworks like <strong> Node.js, Angular.js, React.js, Backbone.js, Require.js, and ExtJS.</strong></li>
+   <li>Expertise in development of server side JavaScript using <strong>node.js</strong> and exposure to data visualization technologies such as <strong>D3.js.</strong></li> 
+   <li>Extensive experience on implementing <strong> AJAX </strong> features using <strong>JavaScript, AngularJS </strong> and <strong> jQuery.</strong></li>
+   <li>Developed the <strong>custom components</strong> using <strong>AngularJS </strong> custom directives.</li>
+   <li>Significant experience in web development tools like <strong>Adobe Dreamweaver CS3, Spring Tool Suite, Eclipse, Bugzilla </strong> and <strong>Firebug.</strong></li>
+   <li>Experience in designing, developing, and deploying JDBC, JSP, Struts, EJB, Java Beans , JDK, Servlets, JPA, JMS, JAX-RPC, RMI on windows and flavors of UNIX platforms Experience in designing, developing and deploying JDBC, JSP, Struts, EJB, Java Beans, JDK, Servlets, JPA, JMS, JAX-RPC, NIO, RMI,JMX on windows and flavors of UNIX platforms.</li>
+   <li>Experience on working with <strong>CSS Backgrounds, CSS Layouts, CSS Positioning, CSS Animations, CSS Text, CSS Borders, CSS Margin, CSS Padding, CSS Table, Pseudo Classes and Pseudo Elements.</strong></li>
+   <li>Developed <strong> Graphical User Interface (GUI) </strong> to display report data using jQuery in Cross-browser compatibility and Web Application Scaling.</li>
+   <li>Strong knowledge in cross browser compatibility issues and W3C standards. Good Knowledge in using <strong> Dojo </strong>Components and integrating back-end applications with AJAX driven web 2.0 front-end using <strong>OO JavaScript framework.</strong></li>
+   <li>Experience in implementing the DOM element manipulation using <strong> jQuery.</strong></li>
+   <li>Sound knowledge in working with browsers compatibility issues with browsers like <Strong> IE, Firefox, safari, Opera, Chrome.</Strong></li>
+   <li>Experience in implementation of business applications using <strong> BEA Web logic, WebSphere, IBMWeb Sphere Application and Portal Server (WAS/WPS), JBoss </strong> and <strong> Tomcat.</strong></li>
+   <li>Experience in node.js task runner tools <strong> Grunt and Bower </strong> and experience in code coverage tools <strong>Jasmine and Karma.</strong></li>
+   <li>Experience on <strong> HTTP </strong> specifications and <strong> REST </strong> standards and expertise in integration of <strong> RESTful </strong> services with UI applications.</li>
+   <li>Expertise in creating the pages using <strong> CSS3 </strong> webpages layouts and vast knowledge in usability and accessibility concepts proficient in using higher level style syntaxes, <strong> LESS </strong> and <strong> SASS </strong> for advanced CSS features.</li>
+   <li>Experience in <strong> Servlets, JSP, JDBC </strong> and also in <strong> MVC </strong>based frameworks like <strong> Struts, Spring and Hibernates.</strong></li>
+   <li>Strong proficiency with <strong> jQuery, jQuery plugins </strong> (Validator, Drag and Drop, AutoComplete), <strong> AJAX, Sencha Touch, Sencha EXT JS, Dynamic HTML (DHTML), JSON and XML.</strong></li>
+   <li>Strong experience in tools <strong> Capistrano, SSH, SVN, Git, Gitlab, ICinga, Jenkins.</strong></li>
+</ul>
+   <br>
+   <style>
+tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+</style>
+<table>
+  <tr>
+    <td> <strong> TECHNICAL SKILLS </strong></td>
+    </tr>
+    </table>
+   <style>
+   table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+</style>
+<table>
+
+  <tr>
+    <td> <strong> Web Technologies </strong></td>
+    <td>HTML/HTML5, JSP, CSS2/CSS3, DHTML, XML, XHTML, XSLT,  JavaScript, AJAX, jQuery, JSON, Apache.</td>
+  </tr>
+  <tr>
+    <td> <strong> JavaScript Frameworks </strong></td>
+    <td>Angular.js, Backbone.js, Require.js , React.js, Ext JS 2.0/1.0, Node.js, Bootstrap.</td>
+  </tr>
+  <tr>
+    <td> <strong> IDE's and Tools </strong></td>
+    <td>Eclipse IDE, NetBeans, Dreamweaver, Developer Tools, Edit Plus, JSfiddle, Webstrom, Tatastrom, Sublimetext.</td>
+  </tr>
+  <tr>
+    <td> <strong> Development Tools </strong></td>
+    <td>Adobe Photoshop CS5, Google Ad Words, Yahoo Search Marketing
+    (spring tool suite)</td>
+  </tr>
+  <tr>
+    <td> <strong> Wire Frame Tools(wire frame) </strong></td>
+    <td>Adobe Illustrator CS3(basic idea on wire frame and  visual design), Photoshop CS6, Adobe CQ.</td>
+  </tr>
+  <tr>
+    <td> <strong> Publishing Tools </strong></td>
+    <td>Adobe PageMaker, MS Office.</td>
+  </tr>
+</table>
+<br>
+<style>
+tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+</style>
+<table>
+  <tr>
+    <td> <strong> PROFESSIONAL EXPERIENCE </strong></td>
+    </tr>
+    </table>
+<strong>Client: Chrysler, Auburn Hills, MI &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feb 2015- Till date</strong><br>
+<strong>Project: Dealer Connect</strong><br>
+<strong>Role: JavaUI Developer</strong>
+<p>Chrysler, officially FCA US LLC, is an American automobile manufacturer. The purpose of this project is to market of Chrysler cars. The development and maintenance of Decision support systems is by means of integrating data different source systems, into a repository of meaningful business information.</p>
+<strong>Responsibilities:</strong>
+<ul>
+   <li>Developed the User Interactive web pages in a professional manner with using web technologies like HTML5/HTML, XHTML, and CSS3/CSS as per company standards.</li>
+   <li>Involved in the development of mobile management with the help of media queries in Twitter Bootstrap.</li>
+   <li>Used Pixel management for each element in the nested loop of elements by Bootstrap.</li>
+   <li>Involved in building highly interactive portable widgets using HTML5, CSS3, LESS and the latest AJAX libraries.</li>
+   <li>Used the Node.js, AngularJS and Backbone.js MVC Frameworks in the development of the web applications.</li>
+   <li>Created <strong> HTML pages </strong> from the PDF given by the UX and used <strong> AngularJS </strong> to retrieve data from the Rest Services.</li>
+   <li>Used AJAX calls through AngularJS to populate the data tables on the front-end.</li>
+   <li>Extensively used <strong> React.js </strong> to render pages on both the client and server sides.</li>
+</ul>
+<p><strong> Environment: </strong> JDK 1.5,Struts 1.1, Hibernate 2.0, Spring 2.0, JSP1.2, Servlets 2.3, JDBC, HTML5/HTML, CSS3/CSS, JavaScript, jQuery, LESS, JSON, DOM, Node.js, Angular.js, React.js, EXTJS, D3.js, Bootstrap, MVC, Adobe Fireworks, Photoshop, Dreamweaver, Illustrator, AJAX, XML, Eclipse, PhoneGap, Internet Explorer, Firefox, Chrome, PL/SQL, Toad, Windows.</p>
+<br>
+<strong>CPE 1560 BroadwayStreet, Denver.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mar 2014 - Jan 2015</strong><br>               
+<strong>Project: Health Care</strong><br>
+<strong>Role: Java-UI Developer</strong>
+<p>The Bride Application in the HPE interChange System was designed to help fill the requirements for the Colorado Medicaid Management Information System replacement project. As a complimentary system to the Prior Authorization component, the Bridge was designed to house key data elements in order for a Case Manager to create pre-authorization for Medicaid waiver clients with minimal effort.   The end result is an efficient application that significantly reduces time and data entry errors for uses due to the elaborate design and construction.</p>
+<br>
+<strong>Responsibilities:</strong>
+<ul>
+  <li>Developed the User Interactive web pages in a professional manner with using web technologies like HTML5/HTML, XHTML, and CSS3/CSS as per company standards.</li>
+  <li>Involved in the development of mobile management with the help of media queries in Twitter Bootstrap.</li>
+  <li>Used Pixel management for each element in the nested loop of elements by Bootstrap.</li>
+  <li>Involved in building highly interactive portable widgets using HTML5, CSS3, LESS and the latest AJAX libraries.</li>
+  <li>Used the Node.js, AngularJS and Backbone.js MVC Frameworks in the development of the web applications.</li>
+  <li>Created <strong> HTML pages </strong> from the PDF’s given by the UX and used <strong> AngularJS </strong> to retrieve data from the Rest Services.</li>
+</ul>
+ <p><strong>Environment:</strong> JDK 1.5,Struts 1.1, Hibernate 2.0, Spring 2.0, JSP1.2, Servlets 2.3, JDBC, HTML5/HTML, CSS3/CSS, JavaScript, jQuery, LESS, JSON, DOM, Node.js, Angular.js, React.js, EXTJS, D3.js, Bootstrap, MVC, Adobe Fireworks, Photoshop, Dreamweaver, Illustrator, AJAX, XML, Eclipse, PhoneGap, Internet Explorer, Firefox, Chrome, PL/SQL, Toad, Windows.
+</p>
+
+<p><strong>EDUCATIONAL DETAILS:</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bachelor of Engineering (Computer Science) from Jawaharlal Nehru Technological University, India with aggregate of 84 % (Equivalent to 3.7 GPA) graduated in 2008.
+</body>
+</html>
