@@ -1,0 +1,273 @@
+1)CSS Selectors.
+
+a).class: used to select an element with a particular class name.
+b) #id :used to select and style the elements with a particular id name
+c)* :selects all elements. 
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    background-color: red;
+}
+.intro {
+    background-color: yellow;
+}
+.main {
+     background-color: orange;
+}
+#demo {
+    background-color: blue;
+}
+</style>
+</head>
+<body>
+
+<h1>welcome to this page</h1>
+
+<div class="intro">
+  <p>Good Morning</p>
+</div>
+<div class="main">
+  <p>Have a good luck!!!!</p>
+</div>
+<div>
+<p id="demo">Enjoy the day</p>
+
+</body>
+</html>
+
+
+b)element: Select and styles all <p> elements with different ID's
+ element,element: select and style all <span> and <h1> elements.
+ element>element: select all <p> elements where the parent is <span> in this scenario.
+element element: Select and style every <p> elements that is inside <span> element.
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+    background-color: red;
+}
+h1,span{
+     background-color: yellow;
+}
+span > p {
+     background-color: orange;
+}
+span h2{
+    background-color: blue;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Welcome to the page</h1>
+
+<div>
+  <p id="intro">Gud morning.</p>
+  <p id="demo">Have a gud luck</p>
+</div>
+
+<span>How are you doing</span>
+
+<span>
+   <h2>this is a para1 element</h2>
+   <p>this is a para2 element</p>
+</span>
+
+<p>Enjoy the day</p>
+
+</body>
+</html>
+
+c) element + element : Select and style every <span> element that are placed immediately after <div> elements
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div + span{
+     background-color: yellow;
+}
+div ~ p{
+     background-color: red;
+}
+
+
+</style>
+</head>
+<body>
+
+<h1>Welcome to the page</h1>
+
+<div>
+  <p id="intro">Gud morning.</p>
+  <p id="demo">Have a gud luck</p>
+</div>
+
+<span>How are you doing</span>
+
+<span>
+   <p>this is a para1 element</h2>
+   <p>this is a para2 element</p>
+</span>
+
+<p>Enjoy the day</p>
+
+</body>
+</html>
+
+3)[attribute] - selects all elements with a particular attribute
+  [attribute=value] - selects all elements with destination=_blank in this program
+  [attribute~=value] -Selects all elements with a title attribute containing the word "kangaroo"
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a[destination] {
+    background-color: yellow;
+}
+a[destination=_blank] {
+    background-color: red;
+}
+[title~=flower] {
+    border: 5px solid yellow;
+}
+</style>
+</head>
+<body>
+<p>The links with a target attribute gets a yellow background:</p>
+<a href="http://www.w3schools.com">w3schools.com</a>
+<a href="http://www.javatpoint.com" destination="_blank">javatpoint.com</a>
+<a href="http://www.tutorialspoint.com" destination="_top">tutorialspoint.com</a>
+
+<img src="kangaroo.jpg" title="kangaroo" width="140" height="110">
+<img src="img_flwr.gif" title="flowers" width="212" height="154">
+<img src="landscape.jpg" title="landscape" width="150" height="110">
+</body>
+</html>
+
+
+4)::after - Inserting some text after the content of each element
+  ::before -Inserting some text after the content of each element
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p:empty {
+width: 200px;
+    height: 30px;
+    background: blue;
+}
+div::after {
+    content: " - Edison";
+}
+p::after {
+    content: " - Bell";
+}
+span::before{
+    content: " Remember - ";
+input:checked {
+    
+    }
+</style>
+</head>
+<body>
+
+<div>Bulb was invented by</div>
+<p>Telephone was invented by</p>
+<span>Newton's third law</span>
+<p></p>
+<form action="">
+  <input type="radio" checked="checked" value="male" name="gender"> Male<br>
+  <input type="radio" value="female" name="gender"> Female<br>
+  <input type="checkbox" checked="checked" value="postGraduate">completed Postgraduation<br>
+  <input type="checkbox" value="Graduate"> completed graduation
+</form>
+</body>
+</html>
+
+5) :first-child Selector - Select and style every <p> element that is the first child of its parent.
+   ::first-letter Selector - Select and style the first letter of every <p> element
+   :hover Selector - Select and style a link when we mouse over it
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1:first-child {
+    background-color: yellow;
+}
+p::first-letter {
+    font-size: 200%;
+    color: red;
+}
+a:hover {
+    background-color: orange;
+}
+</style>
+</head>
+<body>
+
+<h1>This paragraph is the first child of its parent.</p>
+
+<h1>Welcome to My Homepage</h1>
+<p>This paragraph is not the first child of its parent.</p>
+<p>This paragraph is not the last child of its parent.</p>
+<div>
+  <h2>This paragraph is the first child of its parent (div).</p>
+  <h1>This paragraph is not the first child of its parent.</p>
+</div>
+<a href="http://www.w3schools.com">w3schools.com</a>
+<a href="http://www.tutorials.com">tutorials.org</a>
+</body>
+</html>
+
+
+6) :last-of-type Selector - Specify a background color for the last <span> element of its parent in this example.
+    :nth-child(2) Selector - Specify a background color for every <p> element that is the second child of its parent
+    
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p:nth-child(2) {
+    background: red;
+}
+
+span:last-of-type {
+    background: blue;
+}
+</style>
+</head>
+<body>
+
+<p>The first paragraph.</p>
+<p>The second paragraph.</p>
+<p>The third paragraph.</p>
+<p>The fourth paragraph.</p>
+
+
+<h1>This is a heading</h1>
+<h2>The second heading paragraph.<h2>
+<span>The second paragraph.</span><br>
+<span>The third paragraph.</span><br>
+<span>The fourth paragraph.</span>
+
+</body>
+</html>
+
+
+
+
+
+
+
